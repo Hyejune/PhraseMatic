@@ -1,0 +1,17 @@
+//3rd constructor
+public PhraseMatic (String userName, String addedPhrase)
+{
+  this.userName = userName;
+  String[] wordListZero = {adverb}
+  String[] wordListOne = {adjective}
+  String[] wordListTwo = {adjective}
+  String[] wordListThree = {noun}
+  
+  int rand1 = (int) (Math.random() * oneLength);
+  int rand2 = (int) (Math.random() * twoLength);
+	int rand3 = (int) (Math.random() * threeLength);
+  
+  System.out.print(userName + " " + addedPhrase + " " + rand1 + " " + rand2 + " " + rand3 + " ");
+  
+  //char char1 = userName.charAt(0);
+  //mystery: produce unique number from characters?
