@@ -1,4 +1,16 @@
-//3rd constructor
+import.java.util.Scanner;
+
+public class PhraseMatic {
+  String addedPhrase;
+  String userName;
+
+int[] valueChar = new int[4];
+
+for (int i=0; i<4; i++)
+  {
+  sum+=valueChar[i];
+  }
+
 public PhraseMatic (String userName, String addedPhrase)
 {
   this.userName = userName;
@@ -11,7 +23,7 @@ public PhraseMatic (String userName, String addedPhrase)
   int rand2 = (int) (Math.random() * twoLength);
 	int rand3 = (int) (Math.random() * threeLength);
   
-  System.out.print(userName + " " + addedPhrase + " " + rand1 + " " + rand2 + " " + rand3 + " ");
+  System.out.print(userName + " " + addedPhrase + " " + rand1 + " " + rand2 + " " + rand3);
   
   //char char1 = userName.charAt(0);
   //mystery: produce unique number from characters?
